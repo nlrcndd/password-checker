@@ -108,15 +108,6 @@ if __name__ == "__main__":
 
 O loop principal. O `.strip()` remove espaços acidentais no começo e fim do que foi digitado. O `if __name__ == "__main__"` garante que o `main()` só roda quando o arquivo é executado diretamente, então se alguém importar o script em outro projeto as funções ficam disponíveis sem executar nada automaticamente.
 
-## rodando
-
-Só Python 3.7+, sem dependências externas.
-
-```bash
-git clone https://github.com/seu-usuario/hibp-checker.git
-cd hibp-checker
-python checker.py
-```
 
 ## o que aprendi
 
